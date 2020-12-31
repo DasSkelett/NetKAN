@@ -30,7 +30,7 @@ jobs:
                   restore-keys: |
                       downloads-
             - name: Test modified netkans
-              uses: DasSkelett/xKAN-meta_testing@fix/file-detection
+              uses: DasSkelett/xKAN-meta_testing@fix/file-detection-test
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                   GITHUB_PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
