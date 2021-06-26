@@ -10,6 +10,8 @@ resources:
   manual:   'https://github.com/LunaMultiplayer/LunaMultiplayer/wiki'
 tags:
   - plugin
+  - tag2
+  - tag3
 depends:
   - name: Harmony2
 install:
